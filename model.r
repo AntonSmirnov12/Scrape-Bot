@@ -113,7 +113,7 @@ for (i in 0:6){
 x <- seq(1,length(odds))
 plot(1/odds,xaxt="n",
      main="Graphing set score odds",
-     xlab = "Score"
+     xlab = "Score",
      ylab="Prob",
      type="l",
      col="blue")
